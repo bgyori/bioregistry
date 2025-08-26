@@ -2,7 +2,7 @@ name: Docker build and web service test
 
 on:
   push:
-    branches: [ main ]
+    branches: [ "**" ]
   pull_request:
     branches: [ main ]
 
